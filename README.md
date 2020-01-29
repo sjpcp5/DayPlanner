@@ -1,15 +1,37 @@
-## Welcome to GitHub Pages
+# Day Planner
+An calander application that allows the user to save events for each hour of the day. The app will run in the browser and feature dynamically updated HTML and CSS powered by JQuery and JavaScript.
 
-You can use the [editor on GitHub](https://github.com/sjpcp5/HW5/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Requirements
+The app should display standard business hours (9 a.m. to 5 p.m.).The app should display standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+* The time
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+* A field to hold user input
+
+
+* A save button
+
+
+Clicking on the save button will store the time and user input in localStorage.
+
+Near the top of the calendar, the application should display the current day. Additionally, each hour should be color coded to reflect whether the time slot is in the past, the present, or the future. This will change depending on the time of day.
+
+The Moment.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+
+* place gif or pic of app here
+[Link](url) and ![Image](src)
+
+## User Story
+
+As a developer or user with a ambitious schedule I WANT to add important events to a daily planner SO THAT I can manage my time
+effectively.
+
+## Business Context 
+
+Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity.
+
 
 # Header 1
 ## Header 2
@@ -22,16 +44,5 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sjpcp5/HW5/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+``````````````
+hello
