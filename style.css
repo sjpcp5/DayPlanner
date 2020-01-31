@@ -1,9 +1,15 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
+body {
+  background: #eeeeee;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, auto);
+}
 textarea{
   background: transparent;
   border: none;
@@ -12,7 +18,35 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+.card {
+  background: white;
+  padding: .2em;
+  width: 60%;
+}
 
+h1, p {
+  margin: 0;
+}
+h1 {
+  font-size: 1.4em;
+}
+p {
+  font-size: .8em;
+}
+
+/* Overwrite CSS */ 
+
+.secondary {
+  padding: 1.9em;
+}
+
+.secondary h1 {
+  margin-bottom: .5em;
+}
+
+.secondary p {
+  line-height: 1.5em;
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -58,6 +92,7 @@ textarea{
 }
 
 .saveBtn {
+  
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -66,6 +101,7 @@ textarea{
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 1.5em;
   transition: all .3s ease-in-out;
 }
+
