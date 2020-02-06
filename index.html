@@ -10,7 +10,7 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
-  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="./assets/style.css" />
   
   <title>Work Day Scheduler</title>
 </head>
@@ -46,118 +46,20 @@
       </div>
     </div>
   </header>
-  <div class="mw9 center ph3-ns">
-    <fieldset class="flex flex-column cf ph2-ns">
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">8am</time>
+  <div class="mw9 center ph3-ns bg-black-40">
+    <fieldset class="flex flex-column cf ph2-ns bg-white-80">
+      <!-- <div class="flex justify-center w-100 pa1 id=form">
+        <div class="w-25 pa1 mr2 bg-blue" id=time-area>
+          <time class="time-block dib v-mid w-100 tc b:bold f2" data-time=8>8am</time>
         </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
+        <div class="outline w-100 pa1 mr2 top--1" id=inputEvent>
+          <textarea class="event-input dib v-mid w-100 f3" placeholder="Enter Event here.." id="text8" value=""></textarea>
         </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
+        <div class="w-25 pa1 mr2" id=btnInput>
+          <div><input class="b ph3 pv2 input-reset ba f2 bg-light-green" type=submit value="Save" id="8"></div>
         </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">9am</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">10am</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="EnterEvent" value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">11am</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">12pm</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">1pm</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">2pm</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">3pm</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">4pm</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
-      <div class="flex justify-center w-100 pa2">
-        <div class="outline w-25 pa2 mr2">
-          <time class="time-block dib w-100 dib di top--3" data-time="">5pm</time>
-        </div>
-        <div class="outline w-100 pa1 mr2 top--1">
-          <textarea class="event-input dib di w-100" placeholder="Enter Event here.." value=""></textarea>
-        </div>
-        <div class="outline w-25 pa2 mr2">
-          <div><input class="b ph3 pv2 input-reset ba" type=submit value="Save"></div>
-        </div>
-      </div>
+      </div> -->
+      
     </fieldset>
 
   </div>

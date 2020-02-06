@@ -1,107 +1,54 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-}
-
-body {
-  background: #eeeeee;
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(2, auto);
-}
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-.card {
-  background: white;
-  padding: .2em;
-  width: 60%;
-}
-
-h1, p {
-  margin: 0;
-}
-h1 {
-  font-size: 1.4em;
-}
-p {
-  font-size: .8em;
-}
-
-/* Overwrite CSS */ 
-
-.secondary {
-  padding: 1.9em;
-}
-
-.secondary h1 {
-  margin-bottom: .5em;
-}
-
-.secondary p {
-  line-height: 1.5em;
-}
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-}
-
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
-}
-
-.saveBtn {
-  
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 1.5em;
-  transition: all .3s ease-in-out;
-}
-
+                        textarea {
+                        background: transparent;
+                        border: none;
+                        resize: none;
+                        color: #000000;
+                        border-left: 1px solid black;
+                        padding: 10px;
+                        p {
+                            font-size: .8em;
+                        }
+                        /* Overwrite CSS */
+                        .secondary {
+                            padding: 1.9em;
+                        }
+                        .secondary h1 {
+                            margin-bottom: .5em;
+                        }
+                        .secondary p {
+                            line-height: 1.5em;
+                        }
+                        .description {
+                            white-space: pre-wrap;
+                        }
+                        .time-block {
+                            text-align: center;
+                            border-radius: 15px;
+                        }
+                        .row {
+                            white-space: pre-wrap;
+                            height: 80px;
+                            border-top: 1px solid white;
+                            ;
+                        }
+                        .hour {
+                            background-color: #ffffff;
+                            color: #000000;
+                            border-top: 1px dashed #000000;
+                        }
+                        .past {
+                            background-color: #d3d3d3;
+                            color: white;
+                        }
+                        .present {
+                            background-color: #ff6961;
+                            color: white;
+                        }
+                        .future {
+                            background-color: #77dd77;
+                            color: white;
+                        }
+                        .saveBtn i:hover {
+                            font-size: 1.5em;
+                            transition: all .3s ease-in-out;
+                        }
