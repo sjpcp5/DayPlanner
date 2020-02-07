@@ -1,53 +1,66 @@
                         textarea {
-                        background: transparent;
-                        border: none;
-                        resize: none;
-                        color: #000000;
-                        border-left: 1px solid black;
-                        padding: 10px;
+                            background: transparent;
+                            border: none;
+                            resize: none;
+                            color: #000000;
+                            border-left: 1px solid black;
+                            padding: 10px;
+                        }
+                        
                         p {
                             font-size: .8em;
                         }
                         /* Overwrite CSS */
+                        
                         .secondary {
                             padding: 1.9em;
                         }
+                        
                         .secondary h1 {
                             margin-bottom: .5em;
                         }
+                        
                         .secondary p {
                             line-height: 1.5em;
                         }
+                        
                         .description {
                             white-space: pre-wrap;
                         }
+                        
                         .time-block {
                             text-align: center;
                             border-radius: 15px;
                         }
+                        
                         .row {
                             white-space: pre-wrap;
                             height: 80px;
                             border-top: 1px solid white;
                             ;
                         }
+                        
                         .hour {
                             background-color: #ffffff;
                             color: #000000;
                             border-top: 1px dashed #000000;
                         }
+                        
                         .past {
                             background-color: #d3d3d3;
                             color: white;
                         }
+                        
                         .present {
                             background-color: #ff6961;
                             color: white;
                         }
+                        
                         .future {
                             background-color: #77dd77;
                             color: white;
                         }
+                        
                         .saveBtn i:hover {
                             font-size: 1.5em;
                             transition: all .3s ease-in-out;

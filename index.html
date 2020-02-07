@@ -2,53 +2,50 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
-  <link rel="stylesheet" href="./assets/style.css" />
-  
-  <title>Work Day Scheduler</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>Work Day Scheduler</title>
 </head>
 
 <body>
-  <header class="sans-serif">
-    <div class="cover bg-left bg-center-l" style="background-image: url(http://mrmrs.github.io/photos/u/011.jpg)">
-      <div class="bg-black-80 pb5 pb6-m pb7-l">
-        <nav class="dt w-100 mw8 center">
-          <div class="dtc w2 v-mid pa3">
-            <a href="https://github.com/sjpcp5" class="dib w2 h2 pa1 ba b--white-90 grow-large border-box">
-              <svg class="link white-90 hover-white" data-icon="skull" viewBox="0 0 32 32" style="fill:currentcolor">
+    <header class="sans-serif">
+        <div class="cover bg-left bg-center-l" style="background-image: url(http://mrmrs.github.io/photos/u/011.jpg)">
+            <div class="bg-black-80 pb5 pb6-m pb7-l">
+                <nav class="dt w-100 mw8 center">
+                    <div class="dtc w2 v-mid pa3">
+                        <a href="https://github.com/sjpcp5" class="dib w2 h2 pa1 ba b--white-90 grow-large border-box">
+                            <svg class="link white-90 hover-white" data-icon="skull" viewBox="0 0 32 32" style="fill:currentcolor">
                 <title>skull icon</title>
                 <path
                   d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12">
                 </path>
               </svg>
-            </a>
-          </div>
-          <div class="dtc v-mid tr pa3">
-            <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://github.com/sjpcp5/HW5">See Project @ Github</a>
-          </div>
-        </nav>
-        <div class="tc-l mt4 mt5-m mt6-l ph3">
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Work Day Scheduler</h1>
-          <h2 class="fw1 f3 white-80 mt3 mb4">A simple calendar app for scheduling your work day</h2>
-          <p id="currentDay" class="lead white-90"></p>
-          <!-- <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Call to Action</a>
+                        </a>
+                    </div>
+                    <div class="dtc v-mid tr pa3">
+                        <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://github.com/sjpcp5/HW5">See Project @ Github</a>
+                    </div>
+                </nav>
+                <div class="tc-l mt4 mt5-m mt6-l ph3">
+                    <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Work Day Scheduler</h1>
+                    <h2 class="fw1 f3 white-80 mt3 mb4">A simple calendar app for scheduling your work day</h2>
+                    <p id="currentDay" class="lead white-90"></p>
+                    <!-- <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Call to Action</a>
             <span class="dib v-mid ph3 white-70 mb3">or</span>
             <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">Secondary call to action</a> -->
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <div class="mw9 center ph3-ns bg-black-40">
-    <fieldset class="flex flex-column cf ph2-ns bg-white-80">
-      <!-- <div class="flex justify-center w-100 pa1 id=form">
+    </header>
+    <div class="mw9 center ph3-ns bg-black-40">
+        <fieldset class="flex flex-column cf ph2-ns bg-white-80">
+            <!-- <div class="flex justify-center w-100 pa1 id=form">
         <div class="w-25 pa1 mr2 bg-blue" id=time-area>
           <time class="time-block dib v-mid w-100 tc b:bold f2" data-time=8>8am</time>
         </div>
@@ -59,24 +56,24 @@
           <div><input class="b ph3 pv2 input-reset ba f2 bg-light-green" type=submit value="Save" id="8"></div>
         </div>
       </div> -->
-      
+
+        </fieldset>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
     </fieldset>
+    <!-- Timeblocks go here -->
 
-  </div>
-  </div>
-  </div>
-  </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/calendar.js"></script> -->
 
-  </fieldset>
-  <!-- Timeblocks go here -->
 
-  </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="js/script.js"></script>
-  <!-- <script src="js/calendar.js"></script> -->
-  
-  
 </body>
 
 </html>
