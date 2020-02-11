@@ -20,7 +20,7 @@ Near the top of the calendar, the application should display the current day. Ad
 
 The Moment.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-![Image](src=./assets/HW5pic.png)
+![Image](./assets/HW5pic.png)
 
 ## User Story
 
