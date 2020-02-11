@@ -20,8 +20,7 @@ Near the top of the calendar, the application should display the current day. Ad
 
 The Moment.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-* place gif or pic of app here
-[Link](url) and ![Image](src=HW5/assets/HW5pic.png)
+![Image](src=./assets/HW5pic.png)
 
 ## User Story
 
@@ -31,18 +30,3 @@ effectively.
 ## Business Context 
 
 Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity.
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-``````````````
-hello
