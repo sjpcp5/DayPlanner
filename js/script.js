@@ -38,7 +38,7 @@ $(document).ready(function() {
         var text = $(`<div class="outline w-100 pa2 mr2" top--1"><textarea id=text${i} class="description" placeholder="Add your event here..."></textarea>`);
 
         //create a button
-        var button = $(`<div class="w-25 pa2 mr3"><button class="saveBtn" id=${i}><i class="b ph3 pv2 input-reset ba f2 bg-light-green" type=submit value="Save"></input></button>`)
+        var button = $(`<div class="w-25 pa2 mr3"><button class="saveBtn b ph3 pv2 input-reset ba f2 bg-light-green" id=${i}><input class="b ph3 pv2 input-reset ba f2 bg-light-green" type=submit value="Save"></input></button>`)
 
         // append col to row
         form.append(time);
