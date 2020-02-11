@@ -33,31 +33,23 @@
                             border-radius: 15px;
                         }
                         
-                        .row {
-                            white-space: pre-wrap;
-                            height: 80px;
-                            border-top: 1px solid white;
-                            ;
-                        }
-                        
                         .hour {
                             background-color: #ffffff;
                             color: #000000;
-                            border-top: 1px dashed #000000;
                         }
                         
                         .past {
-                            background-color: #d3d3d3;
+                            background-color: #96ccff;
                             color: white;
                         }
                         
                         .present {
-                            background-color: #ff6961;
+                            background-color: #ff4136;
                             color: white;
                         }
                         
                         .future {
-                            background-color: #77dd77;
+                            background-color: #19a974;
                             color: white;
                         }
                         

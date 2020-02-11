@@ -32,13 +32,13 @@ $(document).ready(function() {
         var form = $(`<div data-time=${i} id='${i}' class="flex justify-center w-100 pa1">`);
 
         // create a time-area
-        var time = $('<div class="w-25 pa2 mr2 bg-blue"> <time class="hour ">' + formatAMPM(i) + '</time>');
+        var time = $('<div class="w-25 pa2 mr2 bg-blue"> <time class="hour dib v-mid w-100 tc b:bold f2">' + formatAMPM(i) + '</time>');
 
         //create a text button
-        var text = $(`<div class="outline w-100 pa2 mr2" top--1"><textarea id=text${i} class="description" placeholder="Add your event here..."></textarea>`);
+        var text = $(`<div class="outline w-100 pa2 mr2" top--1"><textarea id=text${i} class="description dib v-mid w-100 f3" placeholder="Add your event here..."></textarea>`);
 
         //create a button
-        var button = $(`<div class="w-25 pa2 mr3"><button class="saveBtn b ph3 pv2 input-reset ba f2 bg-light-green" id=${i}><input class="b ph3 pv2 input-reset ba f2 bg-light-green" type=submit value="Save"></input></button>`)
+        var button = $(`<div class="w-25 pa2 mr3"><button class="saveBtn" id=${i}><input class="b ph3 pv2 input-reset ba f2 bg-gold" type=submit value="Save"></input></button>`)
 
         // append col to row
         form.append(time);
