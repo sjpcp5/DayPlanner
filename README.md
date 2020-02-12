@@ -1,5 +1,5 @@
 # Day Planner
-An calander application that allows the user to save events for each hour of the day. The app will run in the browser and feature dynamically updated HTML and CSS powered by JQuery and JavaScript.
+An calendar application that allows the user to save events for each hour of the day. The app will run in the browser and feature dynamically updated HTML and CSS powered by JQuery and JavaScript.
 
 ## Requirements
 The app should display standard business hours (9 a.m. to 5 p.m.).The app should display standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following:
